@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.about-container {
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+    text-align: center;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content .my-address {
+    color: #e31571d9;
+}
+
+.about-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+}
+
+.about-container .my-name {
+    color: #393E46;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.about-container .my-name span {
+    color: #1d1e20;
+}
+
+.about-container .hobby {
+    color: #393E46;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.icon-container {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.icon-container span {
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icon-container span svg {
+    font-size: 40px;
+    color: #393E46;
+    padding: 10px;
+}
+
+
+/* about-me-container */
+
+.about-me-container {
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+}
+
+.about-me-container .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #e31571d9;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.about-me-container p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0px 30px;
+}
+
+.about-me-container .conclusion {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0 30px 20px 20px;
+}
+
+
+/* skill-content */
+
+.skill-content {
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-content .title,
+.interest-content .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #e31571d9;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.skill-content p,
+.interest-content p {
+    color: #bdc3c7;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.skill-content .row div {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skill-content .row div:hover {
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+.skill-content .row div .icon {
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    white-space: nowrap;
+}
+
+.skill-content .row div .icon svg {
+    font-size: 20px;
+    color: #fff;
+    /* padding: 10px; */
+}
+
+.padding-0 {
+    padding-right: 0 !important;
+    padding-left: 0!important;
+}
+
+
+/* interest-content */
+
+.interest-content {
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+}
+
+.interest-content .row {
+    border: 1px solid red;
+}
+
+.interest-content .row .icon {
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    white-space: nowrap;
+}
+
+
+/* navbar-top */
+
+.navbar-top {
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+}
+
+.navbar-top .nav li a {
+    color: #393E46;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navbar-top .nav li a.active {
+    border-bottom: solid 2px #e31571d9
+}
+
+
+/* portfolio-container */
+
+.portfolio-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portfolio-container .portfolio-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #e31571d9;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.portfolio-container .row {
+    width: 100%;
+    margin: 0 auto;
+    ;
+}
+
+.portfolio-container .row .portfolio-content {
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 2%), 0 5px 12px -6px rgb(0 0 0 / 10%), 0 -12px 25px -19px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.portfolio-container .row .portfolio-content:hover {
+    transition: 0.5s ease-in-out;
+    border: 1px solid #e31571d9;
+    opacity: 0.7;
+    ;
+}
+
+.portfolio-container .row .col .card {
+    border: none;
+    margin: 0 auto;
+}
+
+.portfolio-container .row .col .card:hover {
+    background-color: transparent;
+    ;
+}
+
+.portfolio-container .row .col .card img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+}
+
+.tools-users {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.tools-users .tools-holder {
+    width: 30%;
+    margin-bottom: 10px;
+    border: red solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.tools-users .tools-holder .icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tools-users .tools-holder .icon svg {
+    font-size: 20px;
+    color: #3535b1;
+}
+
+@media (max-width: 767px) {
+    .tools-users .tools-holder {
+        width: 45%;
+    }
+    .portfolio-container .portfolio-title {
+        font-size: 18px;
+    }
+    .navbar-top .nav li a {
+        font-size: 15px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .about-container .my-name {
+        font-size: 20px;
+    }
+    .icon-container {
+        width: 100%;
+    }
+    .about-me-container .title {
+        font-size: 18px;
+    }
+    .skill-content .title,
+    .interest-content .title {
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .skill-content .row div {
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .skill-content .row div .icon {
+        padding: 5px;
+        display: inline-block;
+        border-radius: 20px;
+        color: white;
+        white-space: nowrap;
+    }
+    .skill-content .row div .icon svg {
+        font-size: 16px;
+    }
+}
