@@ -91,7 +91,6 @@ body {
     font-weight: 700;
     padding: 10px;
     text-transform: uppercase;
-    ;
 }
 
 .about-me-container .title {
@@ -320,6 +319,10 @@ body {
     .about-me-container p {
         padding: 0px 5px;
     }
+    .about-me-container .title {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
     .about-me-container .conclusion {
         padding: 5px;
     }
@@ -333,6 +336,9 @@ body {
     .portfolio-container .portfolio-title {
         font-size: 18px;
     }
+    .experiences-container .experiences-title {
+        font-size: 18px;
+    }
     .navbar-top .nav li a {
         font-size: 15px;
         padding: 5px;
@@ -344,8 +350,13 @@ body {
     .icon-container {
         width: 100%;
     }
-    .about-me-container .title {
-        font-size: 18px;
+    .skill-content .skill-items .icon {
+        width: 48%;
+        border-radius: 20px;
+        color: white;
+        white-space: nowrap;
+        margin: 5px 0 15px 5px;
+        padding: 5px;
     }
     .skill-content .title,
     .interest-content .title {

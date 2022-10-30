@@ -6,7 +6,7 @@ function Experiences() {
   return (
     <Layout>
       <div className="experiences-container">
-        <h3 className="experiences-title">Experiences</h3>
+        <h3 className="experiences-title">Experience</h3>
         <div className="row g-2 row-cols-1 row-cols-sm-3 row-cols-md-3 row-cols-lg-3">
            <ExperienceCard/>
         </div>
