@@ -327,7 +327,8 @@ body {
         width: 100%;
     }
     .tools-users .tools-holder {
-        width: 45%;
+        width: 48%;
+        margin-left: 2px;
     }
     .portfolio-container .portfolio-title {
         font-size: 18px;
