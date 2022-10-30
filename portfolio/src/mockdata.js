@@ -87,7 +87,7 @@ export const skills = [{
 export const interest = [
 
     {
-        name: "Listening to music",
+        name: "music",
         icon: < FaMusic / > ,
         color: "bg-success"
     },
