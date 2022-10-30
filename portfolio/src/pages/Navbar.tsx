@@ -11,7 +11,7 @@ function Navbar() {
     <div className="navbar-top border">
       <ul className="nav justify-content-center">
         <li className="nav-item">
-          <Link className= {routeName === "about" ? "nav-link active" :"nav-link" } to="/about">
+          <Link className= {routeName === "" ? "nav-link active" :"nav-link" } to="/">
            About me
           </Link>
         </li>
@@ -21,7 +21,7 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav-item">
-        <Link className= {routeName === "experience" ? "nav-link active" :"nav-link" } to="/experience">
+        <Link className= {routeName === "experiences" ? "nav-link active" :"nav-link" } to="/experiences">
            Experience
           </Link>
         </li>

@@ -18,18 +18,18 @@ function About() {
           <h3 className="my-address">Lagos,Nigeria</h3>
           <h3 className="hobby">Software developer</h3>
           <div className="icon-container mt-3">
-            <span>
+            <a href="mailto:idoko.jerry@hotmail.com">
               <AiOutlineMail />
-            </span>
-            <span>
+            </a>
+            <a href="https://www.github.com/agadajerry">
               <AiFillGithub />
-            </span>
-            <span>
+            </a>
+            <a href="https://www.linkedin.com/in/idoko-agada-jerry-8b6886166/details/experience/">
               <AiFillLinkedin />
-            </span>
-            <span>
+            </a>
+            <a>
               <BsLink45Deg />
-            </span>
+            </a>
           </div>
         </div>
       </section>
@@ -55,30 +55,27 @@ function About() {
         <i className="conclusion">Thanks for stopping by!</i>
       </div>
       <section className="container mt-5 skills-container text-center">
-        <div className="row">
+        <div className="row gx-4">
           <div className="col-md-6 skill-content">
             <h3 className="title">Skills</h3>
             <p>Related to software development</p>
-            <div className="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-6">
+            <div className="skill-items">
               {skills?.map((val: any,index:number) => (
-                <div className="col padding-0" key={index}>
-                  <span className={`icon ${val.color}`}>
+                  <span className={`icon ${val.color}`} key={index}>
                     {val.icon} {val.name}
                   </span>
-                </div>
+             
               ))}
             </div>
           </div>
           <div className="col-md-6 skill-content">
           <h3 className="title">Interest</h3>
           <p> A few other things I occupy myself with...</p>
-            <div className="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-4">
+            <div className="skill-items">
               {interest?.map((val: any,index:number) => (
-                <div className="col padding-0" key={index}>
-                  <span className={`icon ${val.color}`}>
+                  <span className={`icon ${val.color}`}  key={index}>
                     {val.icon} {val.name}
                   </span>
-                </div>
               ))}
             </div>
           </div>

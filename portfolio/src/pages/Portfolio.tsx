@@ -1,5 +1,4 @@
 import { AiFillGithub } from "react-icons/ai";
-import image1 from "../assets/images/image1.png";
 import Card from "../Card";
 import Layout from "../Layout";
 

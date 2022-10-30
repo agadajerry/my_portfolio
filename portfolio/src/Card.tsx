@@ -1,4 +1,3 @@
-import React from "react";
 import image1 from "./assets/images/image1.png";
 
 const cardDetails = [
@@ -29,7 +28,7 @@ const cardDetails = [
       "MySQL",
       "Bootstrap",
     ],
-    github:"https://www.github.com/agadajerry",
+    github:"private",
       live:"https://www.github.com/agadajerry"
   },
   {
@@ -63,8 +62,8 @@ const cardDetails = [
       "HTML5",
       "CSS",
     ],
-    github:"https://www.github.com/agadajerry",
-    live:"https://www.github.com/agadajerry"
+    github:"https://github.com/agadajerry/twitterClone",
+    live:"https://github.com/agadajerry/twitterCloneFrontend"
   },
   {
     icon: image1,
@@ -76,21 +75,21 @@ const cardDetails = [
       "MySQL",
       "JDBC",
     ],
-    github:"https://www.github.com/agadajerry",
-    live:"https://www.github.com/agadajerry"
+    github:"https://github.com/agadajerry/hms",
+    live:"https://github.com/agadajerry/hms"
   },
   {
     icon: image1,
     title: "Chemistry practical",
-    description: "Chemistry practical application for secondaary students.",
+    description: "Chemistry practical application for secondary school students.",
     tools: [
       "Java",
       "Native Android",
       "HTML",
       "CSS",
     ],
-    github:"https://www.github.com/agadajerry",
-    live:"https://www.github.com/agadajerry"
+    github:"https://github.com/agadajerry/ChemistryPracticalGuid",
+    live:"https://github.com/agadajerry/ChemistryPracticalGuid"
   },
   {
     icon: image1,
@@ -100,8 +99,8 @@ const cardDetails = [
       "Java",
       "Native Android",
     ],
-    github:"https://www.github.com/agadajerry",
-    live:"https://www.github.com/agadajerry"
+    github:"https://github.com/agadajerry/TextScanner-android",
+    live:"https://github.com/agadajerry/TextScanner-android"
   },
 ];
 function Card() {

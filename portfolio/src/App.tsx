@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import PrivateRepo from './pages/PrivateRepo';
+import Experiences from './pages/Experiences';
 
 function App() {
 
@@ -13,9 +14,10 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/about" element={<About/>}/>
+      <Route path="/" element={<About/>}/>
       <Route path="/portfolio" element={<Portfolio/>}/>
       <Route path="/private-repo" element={<PrivateRepo/>}/>
+      <Route path="/experiences" element={<Experiences/>}/>
     </Routes>
     </BrowserRouter>
   );
