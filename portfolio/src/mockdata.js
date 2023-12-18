@@ -65,7 +65,7 @@ export const skills = [{
         color: "bg-primary",
     },
     {
-        name: "Core Java",
+        name: "Java(Spring)",
         icon: < DiJava / > ,
         color: "bg-danger",
     },

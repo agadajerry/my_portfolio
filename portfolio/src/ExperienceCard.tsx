@@ -4,12 +4,21 @@ import cbc from "./assets/images/cbc_logo.png";
 import pupilate from "./assets/images/pupilate.jpeg";
 import khumbaa from "./assets/images/khumbaa.svg";
 import st_mary from "./assets/images/st_mary.jpeg";
+import gtbsvg from "./assets/images/gtblogo.svg";
 
 const cardDetails = [
   {
-    icon: cbc,
+    icon: gtbsvg,
     title: "Full stack developer",
     description: "I work with a team that developed and hosted the Steve OCPP EV server for electrical vehicle charging stations.",
+    company: "GTB",
+    address:"Lekki, Lagos Nigeria",
+    date: "2023 - Present",
+  },
+  {
+    icon: cbc,
+    title: "Full stack developer",
+    description: "I am part of the team that developed chatbot web services using whatsapp, CRM as well as NLP. In this website below(bottom right) is the web widget for the chatbot",
     company: "CBCEmea Gedu Tech",
     address:"Lekki, Lagos Nigeria",
     date: "June 2022 - Present",
