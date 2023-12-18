@@ -12,7 +12,7 @@ const cardDetails = [
      icon: gtbsvg,
     title: "Full stack developer",
     description: "I am part of the team that developed chatbot using whatsapp, CRM as well as NLP. This is a GTB webservices that enable customer solve their problems. In this website below( bottom right) is the web widget for the chatbot",
-    company: "CBCEmea Gedu Tech",
+    company: "GTB",
     address:"Lekki, Lagos Nigeria",
     date: "June 2023",
   },
